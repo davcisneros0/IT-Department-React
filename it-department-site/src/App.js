@@ -5,34 +5,22 @@ import About from "./pages/About";
 import Programs from "./pages/Programs";
 import Faculty from "./pages/Faculty";
 import Contact from "./pages/Contact";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
-
-  let component;
-
+  
   //WEBPAGE ROUTING
-  switch (window.location.pathname) {
-    case "/":
-      component = <Home />;
-      break;
-    case "/about":
-      component = <About />;
-      break;
-    case "/programs":
-      component = <Programs />;
-        break;
-    case "/faculty":
-      component = <Faculty />;
-        break;
-    case "/contact":
-      component = <Contact />;
-        break;
-  }
   return (
   <>
     <Navbar />
     <div className="container">
-    {component}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/programs" element={<Programs />} />
+        <Route path="/faculty" element={<Faculty />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   </>
   );
