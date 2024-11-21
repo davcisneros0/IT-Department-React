@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
+import logo from "./bc_logo.png";
 
 export default function Navbar() {
     return <nav className="nav">
-        <Link to="/" className="site-title">Site</Link>
+        <Link to="/" className="site-title">
+            <img src={logo} alt="Broward College logo" className="site-logo" />
+        </Link>
         <ul>
             <li>
                 <Link to="/">Home</Link>
