@@ -153,3 +153,80 @@ hr {
     font-size: 1.6em;
     color: rgb(0, 7, 53);
 } 
+
+#contact-information {
+    width: 60%;
+    /* background-color: red; */
+    margin: 0 auto;
+    padding: 16px;
+    vertical-align: baseline;
+}
+
+#contact-header {
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 1.2em;
+    color: rgb(0, 7, 53);
+}
+
+#contact-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: green; */
+    font-size: 1.3em;
+}
+
+.contact-items {
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 1%;
+    padding: 16px;
+    min-height: 50vh;
+    row-gap: 5px;
+    
+}
+
+.contact-items-image img {
+    width: 50%;
+    position: relative;
+    margin: auto;
+}
+
+.contact-items-info {
+    margin-top: 3%;
+}
+
+.contact-items:hover {
+    background-color: rgb(234, 234, 234);
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.contact-items h5 {
+    margin-top: 5%;
+}
+
+.contact-items p {
+    font-size: 1.1em;
+    color: rgb(0, 7, 53);
+    font-weight: 800;
+}
+
+.contact-items span {
+    font-weight: 300;
+    color: black;
+}
+
+.contact-items-info a {
+    margin: 1%;
+    color: rgb(0, 7, 53);
+}
+
+.contact-items-info a:hover {
+    color: rgb(0, 7, 202);
+    transition: 0.4 ease;
+}

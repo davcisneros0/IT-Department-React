@@ -61,7 +61,8 @@ export default function Home() {
             <div id="programs-list">
 
                 <div class="program-items">
-                    <img src="https://images.unsplash.com/photo-1542744173-b3cd6377db95?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></img>
+                    <img src="https://images.unsplash.com/photo-1542744173-b3cd6377db95?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="A man looking at two computer monitors, one monitor that has code and one monitor that shows the actual website"></img>
                         <div class="program-details">
                             <div class="program-details-sub">
                                 <h3>Web Design</h3>
@@ -74,7 +75,8 @@ export default function Home() {
                 </div>
 
                 <div class="program-items">
-                    <img src="https://www.openaccessgovernment.org/wp-content/uploads/2021/07/dreamstime_xl_217658546-scaled.jpg"></img>
+                    <img src="https://www.openaccessgovernment.org/wp-content/uploads/2021/07/dreamstime_xl_217658546-scaled.jpg"
+                    alt="Someone with long hair looking at a computer screen with a lock screen"></img>
                         <div class="program-details">
                             <div class="program-details-sub">
                                 <h3>Cyber Security</h3>
@@ -86,7 +88,8 @@ export default function Home() {
                 </div>
 
                 <div class="program-items">
-                    <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></img>
+                    <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="A router with a bunch of white and blue cables"></img>
                         <div class="program-details">
                             <div class="program-details-sub">
                                 <h3>Network Infrastructure</h3>
@@ -98,7 +101,8 @@ export default function Home() {
                 </div>
 
                 <div class="program-items">
-                    <img src="https://images.unsplash.com/photo-1603201667493-4c2696de0b1f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></img>
+                    <img src="https://images.unsplash.com/photo-1603201667493-4c2696de0b1f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                    alt="A female looking at her computer screen with a gallery of images"></img>
                         <div class="program-details">
                             <div class="program-details-sub">
                                 <h3>Computer Literacy</h3>
@@ -108,6 +112,68 @@ export default function Home() {
                         </div>
                 </div>
 
+            </div>
+        </div>
+        
+
+        <div id="contact-information">
+
+            <div id="contact-header">
+                    <h2>Contact</h2>
+            </div>
+
+            <div id="contact-list">
+
+                <div class="contact-items">
+
+                    <div class="contact-items-image">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/048/334/475/small_2x/a-person-icon-on-a-transparent-background-png.png"></img>
+                    </div>
+
+                    <div class="contact-items-info">
+                        <p>John Doe</p>
+                        <span>Systems Administrator</span>
+                        <h5>Contact</h5>
+                            <a href="mailto:johndoe@bc.edu">johndoe@bc.edu</a>
+                            <br></br><br></br>
+                            <a href="tel:777-777-7777">777-777-7777</a>
+                    </div>
+
+                </div>
+
+                <div class="contact-items">
+
+                     <div class="contact-items-image">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/048/334/475/small_2x/a-person-icon-on-a-transparent-background-png.png"></img>
+                    </div>
+
+                    <div class="contact-items-info">
+                        <p>Jane Doe</p>
+                        <span>Chief Information Officer</span>
+                        <h5>Contact</h5>
+                            <a href="mailto:janedoe@bc.edu">janedoe@bc.edu</a>
+                            <br></br><br></br>
+                            <a href="tel:777-777-7777">777-777-7777</a>
+                    </div>
+
+                </div>
+
+                <div class="contact-items">
+
+                     <div class="contact-items-image">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/048/334/475/small_2x/a-person-icon-on-a-transparent-background-png.png"></img>
+                    </div>
+
+                    <div class="contact-items-info">
+                        <p>Johnny Doe</p>
+                        <span>Dean of Information Technology</span>
+                        <h5>Contact</h5>
+                            <a href="mailto:johnnydoe@bc.edu">johnnydoe@bc.edu</a>
+                            <br></br><br></br><br></br>
+                            <a href="tel:777-777-7777">777-777-7777</a>
+                    </div>
+
+                </div>
             </div>
         </div>
 
