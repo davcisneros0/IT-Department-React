@@ -1,6 +1,5 @@
 export default function Home() {
     return (
-        //Contact Info
         //Call to action (Apply Now! Request Info)
         // https://www.ncf.edu/departments/information-technnology/
     <div className="home-page">
@@ -169,11 +168,19 @@ export default function Home() {
                         <span>Dean of Information Technology</span>
                         <h5>Contact</h5>
                             <a href="mailto:johnnydoe@bc.edu">johnnydoe@bc.edu</a>
-                            <br></br><br></br><br></br>
+                            <br></br><br></br>
                             <a href="tel:777-777-7777">777-777-7777</a>
                     </div>
 
                 </div>
+            </div>
+        </div>
+
+        <div id="action-banner">
+            <div id="action-banner-text">
+                <h4>Learn in a small classroom environment where your questions get answered and you 
+                    have a chance to test your knowledge.</h4>
+                <button id="request-Btn">REQUEST INFO</button>
             </div>
         </div>
 
