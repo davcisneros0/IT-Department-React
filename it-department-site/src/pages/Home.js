@@ -1,7 +1,5 @@
 export default function Home() {
     return (
-        // Department overview / mission
-        //Featured programs/courses
         //Contact Info
         //Call to action (Apply Now! Request Info)
         // https://www.ncf.edu/departments/information-technnology/
@@ -53,6 +51,67 @@ export default function Home() {
 
             <hr></hr>
         </div>
+
+
+        <div id="programs">
+            <div id="programs-header">
+                    <h2>Programs</h2>
+            </div>
+
+            <div id="programs-list">
+
+                <div class="program-items">
+                    <img src="https://images.unsplash.com/photo-1542744173-b3cd6377db95?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></img>
+                        <div class="program-details">
+                            <div class="program-details-sub">
+                                <h3>Web Design</h3>
+                                <p>Master the basics of web design and learn to build sites that are better and more effective.
+                                Learn how to use HTML, CSS, JavaScript, and other libraries to create functional
+                                web applications.
+                                </p>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="program-items">
+                    <img src="https://www.openaccessgovernment.org/wp-content/uploads/2021/07/dreamstime_xl_217658546-scaled.jpg"></img>
+                        <div class="program-details">
+                            <div class="program-details-sub">
+                                <h3>Cyber Security</h3>
+                                <p>Provide students with a comprehensive understanding of digital security, covering topics such 
+                                    as ethical hacking, network defense, and cryptography.
+                                </p>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="program-items">
+                    <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></img>
+                        <div class="program-details">
+                            <div class="program-details-sub">
+                                <h3>Network Infrastructure</h3>
+                                <p>Equip students with the technical skills to design, implement, and manage reliable network 
+                                    systems, preparing them for careers in managing complex IT infrastructures.
+                                </p>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="program-items">
+                    <img src="https://images.unsplash.com/photo-1603201667493-4c2696de0b1f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></img>
+                        <div class="program-details">
+                            <div class="program-details-sub">
+                                <h3>Computer Literacy</h3>
+                                <p>Prepare for the workforce as you become proficient with web applications such as Microsoft Office and/or Adobe Creative Cloud
+                                </p>
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+
+        
     </div>
     )
 }
