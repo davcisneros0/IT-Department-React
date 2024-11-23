@@ -47,24 +47,28 @@ export default function About() {
                     <h2>Objectives</h2>
                 </div>
 
+                <p>Broward College strives to keep these objectives in mind. This way, students can be expected to be ready
+                        to work in the rising technology workforce.
+                </p>
+
                 <div id="objectives-list">
-                    <div className="objectives-item">
-                        <p>TEST</p>
+                    <div className="objectives-item-e">
+                        <p>Collaboration</p>
                     </div>
-                    <div className="objectives-item">
-                        <p>TEST</p>
+                    <div className="objectives-item-e">
+                        <p>Knowledge</p>
                     </div>
-                    <div className="objectives-item">
-                        <p>TEST</p>
+                    <div className="objectives-item-o">
+                        <p>Communication</p>
                     </div>
-                    <div className="objectives-item">
-                        <p>TEST</p>
+                    <div className="objectives-item-o">
+                        <p>Data/Information Security</p>
                     </div>
-                    <div className="objectives-item">
-                        <p>TEST</p>
+                    <div className="objectives-item-e">
+                        <p>Reliability</p>
                     </div>
-                    <div className="objectives-item">
-                        <p>TEST</p>
+                    <div className="objectives-item-e">
+                        <p>Efficiency</p>
                     </div>
                 </div>
             </div>
