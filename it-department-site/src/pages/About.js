@@ -1,7 +1,5 @@
 export default function About() {
     return (
-        // Department history, faculty, staff
-        // Department goals and objectives
         <div className="about-page">
             <div id="about-statement">
 
@@ -42,8 +40,8 @@ export default function About() {
                 <hr></hr>
             </div>
 
-            <div id="objectives">
-                <div id="objectives-header">
+            <div id="about-objectives">
+                <div id="about-objectives-header">
                     <h2>Objectives</h2>
                 </div>
 
@@ -51,7 +49,7 @@ export default function About() {
                         to work in the rising technology workforce.
                 </p>
 
-                <div id="objectives-list">
+                <div id="about-objectives-list">
                     <div className="objectives-item-e">
                         <p>Collaboration</p>
                     </div>
@@ -72,9 +70,37 @@ export default function About() {
                     </div>
                 </div>
             </div>
-    
 
+            <div id="about-goals">
+                <div id="about-goals-header">
+                        <h2>Goals</h2>
+                </div>
 
+                <p style={{margin: '1%'}}>Broward College strives to keep these goals in mind. This way, students can be expected to be ready
+                    to work in the rising technology workforce. 
+                </p>
+
+                <div id="about-goals-list">
+                    <div className="goals-item">
+                        1. Strengthen collaboration with the industry
+                    </div>
+                    <div className="goals-item">
+                        2. Sustain growth with resources
+                    </div>
+                    <div className="goals-item">
+                        3. Increase innovation & research productivity
+                    </div>
+                    <div className="goals-item">
+                        4. Offer curriculum and activities aligned with industry needs
+                    </div>
+                    <div className="goals-item">
+                        5. Strengthen collaboration with the industry
+                    </div>
+                    <div className="goals-item">
+                        6. Graduate - with the right tools, knowledge, familiarity, and mindset under every student's belt
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

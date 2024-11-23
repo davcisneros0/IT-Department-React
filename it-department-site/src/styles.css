@@ -306,14 +306,14 @@ i {
     color: rgb(0, 7, 53);
 }
 
-#objectives-header {
+#about-objectives-header {
     text-align: center;
     margin-bottom: 3%;
     font-size: 1.2em;
     color: rgb(0, 7, 53);
 }
 
-#objectives-list {
+#about-objectives-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px 30px; 
@@ -322,6 +322,7 @@ i {
     width: 50%;
     margin: auto;
     margin-top: 2%;
+    margin-bottom: 2%;
     min-height: 50vh;
 }
 
@@ -367,6 +368,37 @@ i {
     transition: 0.3s ease-in;
 }
 
+#about-goals-header {
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 1.2em;
+    color: rgb(0, 7, 53);
+}
+
+#about-goals-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    gap: 3em;
+    padding: 16px;
+    background-color: rgb(248, 248, 248);   
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    margin-top: 1%;
+    /* min-height: 50vh; */
+}
+
+.goals-item {
+    background-color: rgb(0, 65, 126);
+    color: white;
+    padding: 16px;
+    text-align: left;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.1em;
+}
 
 
 
@@ -453,4 +485,19 @@ i {
         z-index: 5;
         opacity: 0.3;
     }
+
+    #about-statement {
+        width: 80%;
+    }
+
+    #about-objectives-list {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    #about-goals-list {
+        width: 90%;
+    }
+
 }
