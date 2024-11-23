@@ -1,7 +1,5 @@
 export default function Home() {
     return (
-        //Call to action (Apply Now! Request Info)
-        // https://www.ncf.edu/departments/information-technnology/
     <div className="home-page">
         <div id="home-banner">
     
@@ -126,7 +124,8 @@ export default function Home() {
                 <div class="contact-items">
 
                     <div class="contact-items-image">
-                        <img src="https://static.vecteezy.com/system/resources/thumbnails/048/334/475/small_2x/a-person-icon-on-a-transparent-background-png.png"></img>
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/048/334/475/small_2x/a-person-icon-on-a-transparent-background-png.png" 
+                        alt="A person icon on a transparent background"></img>
                     </div>
 
                     <div class="contact-items-info">
@@ -143,7 +142,8 @@ export default function Home() {
                 <div class="contact-items">
 
                      <div class="contact-items-image">
-                        <img src="https://static.vecteezy.com/system/resources/thumbnails/048/334/475/small_2x/a-person-icon-on-a-transparent-background-png.png"></img>
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/048/334/475/small_2x/a-person-icon-on-a-transparent-background-png.png"
+                        alt="A person icon on a transparent background"></img>
                     </div>
 
                     <div class="contact-items-info">
@@ -160,7 +160,8 @@ export default function Home() {
                 <div class="contact-items">
 
                      <div class="contact-items-image">
-                        <img src="https://static.vecteezy.com/system/resources/thumbnails/048/334/475/small_2x/a-person-icon-on-a-transparent-background-png.png"></img>
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/048/334/475/small_2x/a-person-icon-on-a-transparent-background-png.png"
+                        alt="A person icon on a transparent background"></img>
                     </div>
 
                     <div class="contact-items-info">
@@ -180,10 +181,9 @@ export default function Home() {
             <div id="action-banner-text">
                 <h4>Learn in a small classroom environment where your questions get answered and you 
                     have a chance to test your knowledge.</h4>
-                <button id="request-Btn">REQUEST INFO</button>
+                <button id="request-Btn"><a href="Contact.js" target="_blank">REQUEST INFO</a></button>
             </div>
         </div>
-
         
     </div>
     )

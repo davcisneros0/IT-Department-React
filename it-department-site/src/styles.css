@@ -48,6 +48,8 @@ hr {
     transition: 0.3s ease;
 }
 
+
+
 .container {
     text-align: center;
 }
@@ -263,10 +265,33 @@ hr {
     padding: 1% 3%;
     font-weight: bolder;
     color: white;
+    border: 0.9px solid black;
+}
+
+#request-Btn a {
+    color: white;
+    text-decoration: none;
 }
 
 #request-Btn:hover {
     background-color: rgb(0, 0, 215);
     transition: 0.3s ease;
     cursor: pointer;
+    text-decoration-style: none;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #contact-list {
+        display: grid;
+        gap: 15px;
+    }
+
+    #mission-statement {
+        width: 80%;
+    }
+
+    #programs-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
