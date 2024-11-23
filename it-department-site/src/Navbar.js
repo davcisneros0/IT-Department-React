@@ -3,9 +3,18 @@ import logo from "./bc_logo.png";
 
 export default function Navbar() {
     return <nav className="nav">
+
         <Link to="/" className="site-title">
             <img src={logo} alt="Broward College logo" className="site-logo" />
         </Link>
+
+        <input type="checkbox" id="sidebar-active"></input>
+
+        <label for="sidebar-active" class="open-sidebar-btn">
+            <i class="fa fa-solid fa-bars"></i>
+        </label>
+
+        <label id="overlay-sidebar" for="sidebar-active"></label>  
         <ul>
             <li>
                 <Link to="/">Home</Link>
