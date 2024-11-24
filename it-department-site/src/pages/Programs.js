@@ -1,5 +1,5 @@
 export default function Programs() {
-    // Curriculum, admission requirements, career prospects
+    // career prospects
     return (
         <div className="programs-page">
             <div id="programs-statement">
@@ -21,6 +21,9 @@ export default function Programs() {
                         Offering flexible schedules, including online learning options, as well as opportunities for internships and 
                         certifications, Broward College is committed to producing highly qualified IT professionals ready to 
                         thrive in today’s technology-driven job market.
+                        <br></br><br></br>
+                        <b>Admission requirements:</b> High school diploma, GED, or any other state-recognized high school diploma.
+                        A minimum GPA of 2.0 on a 4.0 scale in all post-secondary coursework.
                     </p>
                 </div>
                 <hr></hr>
@@ -38,7 +41,7 @@ export default function Programs() {
                             design tools for prototyping and layout. Students also dive into principles of user 
                             experience (UX) and user interface (UI) design, blending technical expertise with 
                             creative solutions.</p>
-                        <span class="programs-list-item-card-small">test</span>
+                        <span class="programs-list-item-card-small">Curriculum: CGS1060C, COP1000C </span>
                     </div>
                 </div>
 
@@ -51,6 +54,7 @@ export default function Programs() {
                                      ethical hacking. Students also explore topics such as cryptography, malware analysis, and 
                                      security protocols to develop a strong foundation in protecting sensitive data. 
                                 </p>
+                                <span class="programs-list-item-card-small">Curriculum: ISM3054C, ISM3013C, CIS3361C </span>
                     </div>
                     <img src="https://www.openaccessgovernment.org/wp-content/uploads/2021/07/dreamstime_xl_217658546-scaled.jpg"
                     alt="Someone with long hair looking at a computer screen with a lock screen"></img>
@@ -65,6 +69,7 @@ export default function Programs() {
                             understanding of the technologies and skills necessary to build, maintain, and secure modern networks. 
                             Through hands-on training in areas like routing, switching, cybersecurity, and cloud networking, students 
                             gain real-world experience in managing complex IT systems.</p>
+                            <span class="programs-list-item-card-small">Curriculum: CTS1133C, CTS1661C, CNT3604 </span>
                     </div>
                 </div>
 
@@ -74,8 +79,8 @@ export default function Programs() {
                             <p>The Computer Literacy program offers students the opportunity to build a strong foundation in 
                                 essential computer skills needed for today’s digital world. The curriculum includes practical 
                                 training in word processing, spreadsheets, presentations, and internet navigation, along with 
-                                an introduction to coding and digital communication.
-                            </p>
+                                an introduction to coding and digital communication.</p>
+                                <span class="programs-list-item-card-small">Curriculum: CGS1060C, CGS1510C</span>
                     </div>
                     <img src="https://images.unsplash.com/photo-1603201667493-4c2696de0b1f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                     alt="A female looking at her computer screen with a gallery of images"></img>
@@ -90,10 +95,11 @@ export default function Programs() {
                             databases, focusing on SQL (Structured Query Language) and Oracle database systems. Through hands-on coursework, 
                             students learn how to design, query, and manage databases, developing skills in data modeling, normalization, and 
                             performance optimization.</p>
+                        <span class="programs-list-item-card-small">Curriculum: COP1700C, COP2071C</span>
                     </div>
                 </div>
-
             </div>
+
 
 
         </div>

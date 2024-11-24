@@ -461,7 +461,10 @@ i {
     border-radius: 0 8px 8px 0; 
 }
 
-
+.programs-list-item-card-small {
+    font-size: 0.9em;
+    font-weight: 600;
+}
 
 
 
