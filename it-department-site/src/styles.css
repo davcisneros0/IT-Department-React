@@ -215,6 +215,7 @@ i {
     background-color: rgb(234, 234, 234);
     transition: 0.4s ease;
     cursor: pointer;
+    border: 0.1px solid black;
 }
 
 .contact-items h5 {
@@ -467,8 +468,31 @@ i {
 }
 
 
+                                                        /* FACULTY.JS  */
 
+#faculty-statement {
+    width: 50%;
+    margin: 0 auto;
+    padding: 16px;
+    vertical-align: baseline;
+}
 
+#faculty-statement-header {
+    text-align: left;
+    margin-bottom: 3%;
+    font-size: 1.2em;
+    color: rgb(0, 7, 53);
+}
+
+#faculty-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    align-items: center;
+    font-size: 1.3em;
+    width: 70%;
+    margin: 0 auto;
+}
 
 
 
@@ -555,4 +579,23 @@ i {
         width: 90%;
     }
 
+    #programs-statement {
+        width: 80%;
+    }
+
+    #programs-list-item {
+        flex-direction: column;
+    }
+
+    .programs-list-item-card:nth-child(even), .programs-list-item-card:nth-child(odd) {
+        width: 100%;
+    }
+
+    #faculty-statement {
+        width: 80%;
+    }
+
+    #faculty-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
