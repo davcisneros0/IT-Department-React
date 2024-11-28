@@ -510,8 +510,82 @@ i {
     color: rgb(0, 7, 53);
 }
 
+.contact-body {
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+.contact-info {
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    font-size: 1.05em;
+    background-color: rgb(233, 233, 233);
+}
+
+.contact-icons {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-info span {
+    display: block;
+}
+
+.contact-info div {
+    margin: 0.8em 1em;
+    padding: 1em;
+}
 
 
+.contact-info span .fa {
+    font-size: 2em;
+    padding: 0.3em 0;
+    color: rgb(0, 7, 53);
+}
+
+form {
+    padding: 1em;
+}
+
+.form-control {
+    width: 100%;
+    border: 1.5px solid grey;
+    border-radius: 8px;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    font-size: 1em;
+    outline: 0;
+}
+
+.contact-form form div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.5em;
+}
+
+.send-Btn {
+    font-size: 1em;
+    color: white;
+    background-color: rgb(0, 7, 53);
+    border-radius: 8px;
+    cursor: pointer;
+    width: 50%;
+    padding: 1em;
+    margin: 1em;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.send-Btn:hover {
+    background-color: rgb(0, 22, 165);
+}
+
+textarea {
+    resize: vertical;
+}
 
 
 
@@ -614,5 +688,17 @@ i {
 
     #faculty-list {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact-info {
+        background-color: rgb(233, 233, 233);
+        border-radius: 8px;
+        padding: 1em;
+        display: grid;
+        grid-template-columns: repeat (1, 1fr);
+    }
+
+    #contact-statement {
+        width: 80%;
     }
 }

@@ -181,7 +181,7 @@ export default function Home() {
             <div id="action-banner-text">
                 <h4>Learn in a small classroom environment where your questions get answered and you 
                     have a chance to test your knowledge.</h4>
-                <button id="request-Btn"><a href="Contact.js" target="_blank">REQUEST INFO</a></button>
+                <button id="request-Btn"><a href="Contact">REQUEST INFO</a></button>
             </div>
         </div>
         

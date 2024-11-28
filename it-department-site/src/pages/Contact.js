@@ -19,20 +19,17 @@ export default function Contact() {
             <div className="contact-body">
                 <div class="contact-info">
                     <div>
-                        <span><i class="fa fa-solid fa-phone"></i></span>
-                        {/* <span>Phone Number</span> */}
+                        <span><i class="fa fa-solid fa-phone contact-icons"></i></span>
                         <span className="contact-text">954-201-6723</span>
                     </div>
 
                     <div>
-                        <span><i class="fa fa-solid fa-envelope"></i></span>
-                        {/* <span>Email</span> */}
+                        <span><i class="fa fa-solid fa-envelope contact-icons"></i></span>
                         <span className="contact-text">computer-science@broward.edu</span>
                     </div>
 
                     <div>
-                        <span><i class="fa fa-solid fa-map-pin"></i></span>
-                        {/* <span>Address</span> */}
+                        <span><i class="fa fa-solid fa-map-pin contact-icons"></i></span>
                         <span className="contact-text">Central Campus, Building 13, 3501 Davie Road, Davie, FL 33314</span>
                     </div>
                 </div>
@@ -40,17 +37,15 @@ export default function Contact() {
             <div className="contact-form">
                 <form>
                     <div>
-                        <input type="text" className="form-control" placeholder="First Name"></input>
+                        <input type="text" className="form-control" placeholder="First Name" required></input>
                         <input type="text" className="form-control" placeholder="Last Name"></input>
                     </div>
                     <div>
-                        <input type="email" className="form-control" placeholder="Email"></input>
+                        <input type="email" className="form-control" placeholder="Email" required></input>
                         <input type="text" className="form-control" placeholder="Phone"></input>
                     </div>
-                    <div>
-                        <textarea rows="5" placeholder="Message" className="form-control"></textarea>
-                        <input type="submit" className="send-btn" value="Send"></input>
-                    </div>
+                    <textarea rows="5" placeholder="Message" className="form-control" required></textarea>
+                    <input type="submit" className="send-Btn" value="Send"></input>
                 </form>
             </div>
 
