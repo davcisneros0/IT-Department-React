@@ -494,6 +494,23 @@ i {
     margin: 0 auto;
 }
 
+                                                        /* CONTACT.JS  */
+
+#contact-statement {
+    width: 50%;
+    margin: 0 auto;
+    padding: 16px;
+    vertical-align: baseline;
+}
+
+#contact-statement-header {
+    text-align: left;
+    margin-bottom: 3%;
+    font-size: 1.2em;
+    color: rgb(0, 7, 53);
+}
+
+
 
 
 
