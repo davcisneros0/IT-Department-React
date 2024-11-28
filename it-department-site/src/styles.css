@@ -80,6 +80,39 @@ i {
 /*CSS FOR HAMBURGER MENU ENDS HERE*/
 
 
+footer {
+    background-color: rgb(0, 13, 101);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 23vh;
+    padding: 1em;
+}
+
+ .socialmedia-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 8em;
+    width: 100%;
+}  
+
+.sm-icons {
+    color: white;
+    margin: 0;
+    font-size: 2em;
+}
+
+.sm-icons:hover {
+    color: rgb(179, 179, 179);
+    transition: 0.3s ease;
+}
+
+
                                                 /* HOME.JS  */
 #home-banner {
     background-image: url("https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
@@ -586,7 +619,6 @@ form {
 textarea {
     resize: vertical;
 }
-
 
 
 @media screen and (max-width: 1000px) {
