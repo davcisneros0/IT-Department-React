@@ -45,7 +45,7 @@ export default function About() {
                     <h2>Objectives</h2>
                 </div>
 
-                <p>Broward College strives to keep these objectives in mind. This way, students can be expected to be ready
+                <p style={{margin: '1%'}}>Broward College strives to keep these objectives in mind. This way, students can be expected to be ready
                         to work in the rising technology workforce.
                 </p>
 

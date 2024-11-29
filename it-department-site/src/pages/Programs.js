@@ -46,6 +46,8 @@ export default function Programs() {
                 </div>
 
                 <div className="programs-list-item">
+                <img src="https://www.openaccessgovernment.org/wp-content/uploads/2021/07/dreamstime_xl_217658546-scaled.jpg"
+                    alt="Someone with long hair looking at a computer screen with a lock screen"></img>
                     <div className="programs-list-item-card">
                         <h3>Cybersecurity</h3>
                                 <p>The Cybersecurity program prepares students to safeguard information and technology systems 
@@ -56,8 +58,6 @@ export default function Programs() {
                                 </p>
                                 <span class="programs-list-item-card-small">Curriculum: ISM3054C, ISM3013C, CIS3361C </span>
                     </div>
-                    <img src="https://www.openaccessgovernment.org/wp-content/uploads/2021/07/dreamstime_xl_217658546-scaled.jpg"
-                    alt="Someone with long hair looking at a computer screen with a lock screen"></img>
                 </div>
 
                 <div className="programs-list-item">
@@ -74,6 +74,8 @@ export default function Programs() {
                 </div>
 
                 <div className="programs-list-item">
+                <img src="https://images.unsplash.com/photo-1603201667493-4c2696de0b1f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                    alt="A female looking at her computer screen with a gallery of images"></img>
                     <div className="programs-list-item-card">
                         <h3>Computer Literacy</h3>
                             <p>The Computer Literacy program offers students the opportunity to build a strong foundation in 
@@ -82,8 +84,6 @@ export default function Programs() {
                                 an introduction to coding and digital communication.</p>
                                 <span class="programs-list-item-card-small">Curriculum: CGS1060C, CGS1510C</span>
                     </div>
-                    <img src="https://images.unsplash.com/photo-1603201667493-4c2696de0b1f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-                    alt="A female looking at her computer screen with a gallery of images"></img>
                 </div>
 
                 <div className="programs-list-item">
@@ -99,9 +99,6 @@ export default function Programs() {
                     </div>
                 </div>
             </div>
-
-
-
         </div>
     )
 }
